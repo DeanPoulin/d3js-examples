@@ -16,6 +16,10 @@ angular.module('d3jsExamplesApp', [
         templateUrl: 'views/force-directed-graph.html',
         controller: 'MainCtrl'
       })
+      .when('/force-layout-node-selection', {
+        templateUrl: 'views/force-layout-node-selection.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
