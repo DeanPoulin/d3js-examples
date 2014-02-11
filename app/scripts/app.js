@@ -12,6 +12,10 @@ angular.module('d3jsExamplesApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/force-directed-graph', {
+        templateUrl: 'views/force-directed-graph.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

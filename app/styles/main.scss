@@ -12,3 +12,15 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
     stroke: #bbb;
   }
 }
+
+.force-directed-graph {
+  .node {
+    stroke: #fff;
+    stroke-width: 1.5px;
+  }
+
+  .link {
+    stroke: #999;
+    stroke-opacity: .6;
+  }
+}
